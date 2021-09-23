@@ -35,7 +35,7 @@ spec:
     spec:
       containers:
       - name: redis
-        image: redis:latest
+        image: redis:latest1
         ports:
         - containerPort: 6379
           name: client
